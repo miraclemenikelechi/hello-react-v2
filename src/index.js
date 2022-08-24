@@ -1,6 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Index from "./jsx: the begining of react/index";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(<h1>hello react</h1>);
+function App() {
+    return (
+        <Index />
+    );
+}
+
+root.render(App());
