@@ -3,6 +3,7 @@ import React from "react";
 export default function Main() {
     return (
         <main>
+            <h2>unrelated facts about react</h2>
             <ol>
                 <li>react was released in 2013.</li>
                 <li>it is owned by <strong>META </strong>(facebook in other words!).</li>
